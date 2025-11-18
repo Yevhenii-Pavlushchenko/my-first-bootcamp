@@ -1,0 +1,22 @@
+body {
+    font-size: 24px;
+    font-family: 'Tangerine', cursive;
+}
+.title {
+    font-size: 72px;
+    color: orangered;
+    text-shadow: 2px 2px 10px black
+}
+.social-links .link {
+    color: teal;
+    text-decoration: none;
+}
+
+/* Два і більше селекторів для одного правила поділяються комою */
+.social-links .link:hover,
+.social-links .link:focus {
+    color: orange;
+}
+.site-nav .link {
+    text-transform: capitalize;
+}
